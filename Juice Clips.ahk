@@ -98,6 +98,8 @@ for _, GameClientEXE in GameClientEXEs {
   GroupAdd "GameClients", "ahk_exe " GameClientEXE
 }
 
+SetTitleMatchMode(3)
+
 Loop {
   WinWait("ahk_group GameClients")
     DetectHiddenWindows(1)
