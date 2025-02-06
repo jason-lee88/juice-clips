@@ -14,12 +14,12 @@ GameClientTitles := [
 GameClientEXEs := []
 
 ; Toast notification duration in seconds
-ShortToastDuration := 3
-LongToastDuration := 8
+ShortToastDuration := 5
+LongToastDuration := 10
 
 ; Show toast notification on startup when storage limit is exceeded
 ShowStorageExceededAlert := true
-MaxStorageGB := 100 ;Gigabytes
+MaxStorageGB := 200 ;Gigabytes
 RecordingsDir := "C:\Users\jason\Videos\OBS" ;No trailing backslash
 
 ; Hotkeys
