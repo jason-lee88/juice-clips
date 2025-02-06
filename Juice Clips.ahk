@@ -50,7 +50,7 @@ KeysUp(keys) {
 
 ; Toast() renders a toast notification with the given message and duration in seconds.
 Toast(Message, Seconds) {
-  Toast := Gui("+AlwaysOnTop +Disabled -Caption +Border")
+  Toast := Gui("+AlwaysOnTop +Disabled -Caption +Border +ToolWindow")
   Toast.BackColor := "222222"
   Toast.SetFont("Cde9a47 S18 W700", "Verdana")
   Toast.AddText(, "Juice Clips")
